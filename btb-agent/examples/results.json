@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "rmse": 1.5185822167379503e-07,
+    "brier": 0.3235139104376667,
+    "avg_explanation_score_0_5": 4.0,
+    "BTI_0_100": 61.0,
+    "BEC_0_1": 0.56,
+    "n_tasks": 3
+  },
+  "per_task": [
+    {
+      "task_id": "btb_001",
+      "ground_truth_posterior": 0.8709677419354838,
+      "agent_posterior": 0.870968,
+      "abs_error": 2.5806451620091764e-07,
+      "explanation_score_0_5": 4.0,
+      "explanation": "I start from the prior P(H)=0.6. I update using the provided likelihoods P(E|H) and P(E|\u00acH) via Bayes' rule. This yields posterior P(H|E)\u22480.8710."
+    },
+    {
+      "task_id": "btb_002",
+      "ground_truth_posterior": 0.16101694915254236,
+      "agent_posterior": 0.161017,
+      "abs_error": 5.084745763328513e-08,
+      "explanation_score_0_5": 4.0,
+      "explanation": "I start from the prior P(H)=0.01. I update using the provided likelihoods P(E|H) and P(E|\u00acH) via Bayes' rule. This yields posterior P(H|E)\u22480.1610."
+    },
+    {
+      "task_id": "btb_003",
+      "ground_truth_posterior": 0.5,
+      "agent_posterior": 0.5,
+      "abs_error": 0.0,
+      "explanation_score_0_5": 4.0,
+      "explanation": "I start from the prior P(H)=0.3. I update using the provided likelihoods P(E|H) and P(E|\u00acH) via Bayes' rule. This yields posterior P(H|E)\u22480.5000."
+    }
+  ]
+}

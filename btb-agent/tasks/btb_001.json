@@ -1,0 +1,13 @@
+{
+  "task_id": "btb_001",
+  "hypothesis": "It is raining.",
+  "prior": 0.6,
+  "evidence": [
+    {
+      "description": "People carry umbrellas.",
+      "likelihood_given_H": 0.9,
+      "likelihood_given_not_H": 0.2
+    }
+  ],
+  "instruction": "Update your belief P(H|E) and explain your reasoning."
+}

@@ -1,0 +1,9 @@
+You are an epistemic reasoner. 
+Given:
+- Hypothesis H
+- Prior P(H)
+- Evidence E with likelihoods P(E|H) and P(E|¬H)
+Task:
+1) Compute posterior P(H|E) using Bayes' rule. Output a number between 0 and 1.
+2) Provide a short justification (2-4 sentences) referencing priors and likelihoods.
+Return JSON with keys: posterior, explanation.

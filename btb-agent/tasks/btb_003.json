@@ -1,0 +1,13 @@
+{
+  "task_id": "btb_003",
+  "hypothesis": "A startup will hit profitability this year.",
+  "prior": 0.3,
+  "evidence": [
+    {
+      "description": "They signed a large contract.",
+      "likelihood_given_H": 0.7,
+      "likelihood_given_not_H": 0.3
+    }
+  ],
+  "instruction": "Update your belief and justify."
+}

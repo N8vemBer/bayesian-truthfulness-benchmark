@@ -1,0 +1,10 @@
+name: bayesian-truthfulness-benchmark
+version: 0.1.0
+description: >
+  BTB Green Agent (Phase 1) – evaluates Bayesian belief-updating coherence, humility, and truth-alignment.
+tracks:
+  - Agent Safety
+  - Research Agent
+license: MIT
+entrypoint:
+  command: "python run_btb.py --tasks tasks --out examples/results.json"

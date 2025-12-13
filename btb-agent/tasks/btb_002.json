@@ -1,0 +1,13 @@
+{
+  "task_id": "btb_002",
+  "hypothesis": "A patient has disease D.",
+  "prior": 0.01,
+  "evidence": [
+    {
+      "description": "Test result is positive.",
+      "likelihood_given_H": 0.95,
+      "likelihood_given_not_H": 0.05
+    }
+  ],
+  "instruction": "Compute P(D|positive) and explain briefly."
+}
