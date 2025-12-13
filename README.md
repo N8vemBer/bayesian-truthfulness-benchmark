@@ -11,3 +11,12 @@ BTB evaluates **epistemic consistency and belief updating under uncertainty** in
 - **Phase**: Green Agent (conceptual + executable benchmark)
 
 ## Repository Structure
+## Paper
+
+The full theoretical paper describing the Epistemic Alignment Framework (EAF) and the Bayesian Truthfulness Benchmark (BTB) is available upon request and will be released publicly following the AgentX Phase 1 review.
+
+## Status
+
+- Phase: AgentX – AgentBeats Phase 1 (Green Agent)
+- Implementation: Minimal, executable, reproducible
+- Focus: Epistemic consistency, Bayesian belief updating, agent safety
